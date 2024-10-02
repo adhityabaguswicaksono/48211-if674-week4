@@ -1,0 +1,9 @@
+services:
+  my-app:
+    build:
+      context: .
+      args:
+        STUDENT_NAME: 'Adhitya Bagus Wicaksono'
+        STUDENT_NIM: '00000048211'
+    ports:
+      - 80:80
